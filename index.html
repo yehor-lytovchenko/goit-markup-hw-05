@@ -413,6 +413,73 @@
       </div>
     </div>
   </footer>
-</body>
+
+  <!-- modal -->
+  <div class="backdrop">
+    <div class="modal">
+      <button class="modal-close-btn" type="button">
+        <svg class="modal-btn-icon" width="8px" height="8px">
+          <use href="./images/icons.svg#close"></use>
+        </svg>
+      </button>
+      <p class="modal-title">Leave your contacts and we will call you back</p>
+
+      <!-- form -->
+      <form class="modal-form">
+
+        <!-- name -->
+        <div class="form-item-wrapper">
+          <label class="modal-label-input" for="username">Name</label>
+          <div class="form-input-wrapper">
+            <input class="form-input" type="text" name="user_name" id="username">
+            <svg class="modal-form-icon" width="18px" height="24px">
+              <use href="./images/icons.svg#person"></use>
+            </svg>
+          </div>
+        </div>
+
+        <!-- phone -->
+        <div class="form-item-wrapper">
+          <label class="modal-label-input" for="usertel">Phone</label>
+          <div class="form-input-wrapper">
+            <input class="form-input" type="tel" name="phone" id="usertel">
+            <svg class="modal-form-icon" width="18px" height="24px">
+              <use href="./images/icons.svg#phone"></use>
+            </svg>
+          </div>
+        </div>
+
+        <!-- email -->
+        <div class="form-item-wrapper">
+          <label class="modal-label-input" for="useremail">Email</label>
+          <div class="form-input-wrapper">
+            <input class="form-input" type="email" name="email" id="useremail">
+            <svg class="modal-form-icon" width="18px" height="24px">
+              <use href="./images/icons.svg#email"></use>
+            </svg>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="form-item-wrapper">
+          <label class="modal-label-comment" for="usercomment">Comment</label>
+          <textarea class="form-textarea" name="user_comment" id="usercomment" placeholder="Text input"></textarea>
+        </div>
+
+        <!-- privacy -->
+        <!-- <div class="form-privacy-wrapper">
+          <input type="checkbox" name="privacy_agree" id="useragree">
+          <label for="useragree">
+            <span class="custom-checkbox">
+              <svg>
+                <use href="./images/icons.svg#agree"></use>
+              </svg>
+            </span>
+          </label>
+        </div> -->
+        <!-- button -->
+      </form>
+    </div>
+  </div>
 
 </html>
