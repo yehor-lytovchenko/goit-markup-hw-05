@@ -575,7 +575,7 @@ body {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  
+  color: #ffffff;
 }
 
 .footer-input::placeholder {
@@ -583,7 +583,7 @@ body {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-btn {
@@ -615,6 +615,7 @@ body {
 
 .footer-form-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* modal style */
