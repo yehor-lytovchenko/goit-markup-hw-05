@@ -667,14 +667,13 @@ body {
   width: 24px;
   height: 24px;
   fill: #2e2f42;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0;
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
-  fill: #fff;
   border: none;
 }
 
@@ -682,6 +681,11 @@ body {
   width: 8px;
   height: 8px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn-icon:hover,
+.modal-btn-icon:focus {
+  fill: #fff;
 }
 
 .modal-title {
@@ -712,6 +716,7 @@ body {
   color: #8e8f99;
   margin-bottom: 4px;
   display: block;
+  line-height: 1.17;
 }
 
 .modal-label-comment {
@@ -722,6 +727,7 @@ body {
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+  line-height: 1.17;
 }
 
 .form-textarea {
